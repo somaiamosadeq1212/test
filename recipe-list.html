@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+    .main_nav ul li a
+
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 65, 65);
+}
+
+li {
+    float: left;
+    list-style-type:none;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <!-- <div class="menu_container text-right"> -->
+                <nav class="menu_nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="add-recipe.html">Add Recipe</a></li>
+                        <li><a href="recipe-list.html">Recipe List</a></li>
+                        <li><a href="recipe-details.html">Recipe Details</a></li>
+                        
+                         
+                    </ul>
+                </nav>
+            <!-- </div> -->
+        </div>
+    </header>
+    <!-- <div class="article" style="background-color:rgb(0, 238, 255); height:700px; width:100%;"> -->
+       <section>
+        <h1 style="margin-top: 0px; padding-top: 40px; text-align: center; font-size: 60px; color:black;">Recipe Gallery</h1>
+        
+        <form>
+            Recipe category: 
+            <select name="category">
+                <option value="dinner">>dinner</option>
+                <option value="sbreakfst">Desurts</option>
+                <option value="juices">Cake</option>
+            </select>
+            <br><br>
+        </form>
+        <div class="col-lg-3" style="background-color: rgb(214, 209, 209); width: 400px; height: 400px; margin: 50px; text-align: center;">
+            <a href="recipe-details.html"><h2 style="font-size: 25px;">dinner</h2></a> 
+            <img src="images/food_4.jpg" style="width: 400px; height: 250px;"> 
+            <p>Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum. 
+               </p>
+
+        </div>
+        <div class="col-lg-3" style="background-color: rgb(226, 221, 221); width: 400px; height: 400px;  margin: 50px;text-align: center;">
+            <a href="recipe-details.html"><h2 style="font-size: 25px;">Desurts</h2></a>
+            <img src="images/food_4.jpg" style="width: 400px; height: 250px;">
+            <p>Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum. 
+               </p>
+        </div>
+        <div class="col-lg-3" style="background-color: rgb(240, 227, 227); width: 400px; height: 400px; margin: 60px;text-align: center;">
+            <a href="recipe-details.html"><h2 style="font-size: 25px;">Cake</h2></a>
+            <img src="images/food_4.jpg" style="width: 400px; height: 250px;">
+            <p>Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum.
+                Pellentesque venenatis nibh sed tellus faucibus bibendum. 
+               </p>
+        </div>
+        
+</section>
+<footer style="background-color: black; color: #FFFFFF; text-align: center; margin-top: 0px; padding-top:0px; height: 80px;">
+    <p>Design By : html design</p>
+    <p>Contact information: <a href="mailto:someone@example.com">
+    someone@example.com</a>.</p>
+  </footer>
+
+</body>
+</html>
